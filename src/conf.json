@@ -1,0 +1,12 @@
+{
+	"service": {
+		"port": 5008
+	},
+	"database": {
+		"host": "iptv.ttnet.ru",
+		"user": "",
+		"password": "",
+		"dbname": ""
+	},
+	"unicast_url": "http://iptv-proxy.ttnet.ru:8000"
+}
