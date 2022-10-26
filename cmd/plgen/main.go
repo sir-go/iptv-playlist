@@ -20,10 +20,13 @@ func handleErr(w http.ResponseWriter) {
 func handleOk(w http.ResponseWriter, data *string) {
 	w.Header().Set("Content-Length", fmt.Sprint(len(*data)))
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(*data))
+	if _, err := w.Write([]byte(*data)); err != nil {
+		log.Panic(err)
+	}
 }
 
 func getPlaylist() (*[]PlaylistRecord, error) {
+	//goland:noinspection ALL
 	rows, err := dbConn.Query(`
 	select
 		categories.pos as c_pos,
@@ -40,7 +43,11 @@ func getPlaylist() (*[]PlaylistRecord, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if err := rows.Close(); err != nil {
+			log.Panic(err)
+		}
+	}()
 
 	var (
 		plRec  PlaylistRecord
@@ -187,7 +194,11 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	defer dbConn.Close()
+	defer func() {
+		if err := dbConn.Close(); err != nil {
+			log.Panic(err)
+		}
+	}()
 	dbConn.SetMaxIdleConns(100)
 
 	http.HandleFunc("/pl.m3u", m3u(cfg, true))

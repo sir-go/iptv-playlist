@@ -3,9 +3,9 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
 	"log"
-	"os"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func formatDsn(conf *Cfg) (string, string) {
@@ -29,13 +29,11 @@ func Connect(conf *Cfg) (*sql.DB, error) {
 	if err != nil {
 		log.Fatalf("Can't connect to DB `%s` at `%s` as `%s`",
 			conf.Database.Dbname, conf.Database.Host, conf.Database.User)
-		os.Exit(1)
 	}
 
 	if err = conn.Ping(); err != nil {
 		log.Fatalf("Can't connect to DB `%s` at `%s` as `%s`",
 			conf.Database.Dbname, conf.Database.Host, conf.Database.User)
-		os.Exit(1)
 	}
 
 	return conn, nil

@@ -1,4 +1,4 @@
 .idea
 pkg/
-./src/github.com
+cmd/github.com
 bin/

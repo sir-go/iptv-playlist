@@ -3,7 +3,7 @@
 		"port": 5008
 	},
 	"database": {
-		"host": "iptv.ttnet.ru",
+		"host": "",
 		"user": "",
 		"password": "",
 		"dbname": ""

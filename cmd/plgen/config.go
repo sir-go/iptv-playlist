@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"log"
 	"os"
 )
 
@@ -24,14 +25,20 @@ func LoadConfig(confpath string) (*Cfg, error) {
 
 	conf := new(Cfg)
 	file, err := os.Open(confpath)
-	defer file.Close()
+	defer func() {
+		if err := file.Close(); err != nil {
+			log.Panic(err)
+		}
+	}()
 
 	if err != nil {
 		return nil, err
 	}
 
 	jsonParser := json.NewDecoder(file)
-	jsonParser.Decode(&conf)
+	if err = jsonParser.Decode(&conf); err != nil {
+		return nil, err
+	}
 
 	return conf, err
 }
