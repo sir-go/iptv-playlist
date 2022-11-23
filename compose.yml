@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: iptv-db
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_DATABASE: iptv
+      MYSQL_USER: db-username
+      MYSQL_PASSWORD: db-password
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      interval: 10s
+      timeout: 20s
+      retries: 10
+    volumes:
+      - ./testdata/dump.sql:/docker-entrypoint-initdb.d/dump.sql:ro
+    expose: ['3306']
+#    ports:
+#      - '3306:3306'
+    networks: {net}
+
+  backend:
+    build:
+      context: .
+    container_name: iptv-back
+    volumes:
+      - ./config.yml:/opt/config.yml:ro
+      - ./templates:/opt/templates
+    expose: ['8081']
+#    ports:
+#      - '8081:8081'
+    depends_on:
+      - mysql
+    networks: {net}
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: iptv-nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./static:/usr/share/nginx/html/static
+    expose: ["80"]
+    ports: ["80:80"]
+    depends_on:
+      - backend
+    networks: {net}
+
+networks: {net}
