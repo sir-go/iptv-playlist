@@ -1,0 +1,302 @@
+#EXTM3U m3uautoload=1 cache=500 deinterlace=1 aspect-ratio=none
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Первый канал.png" group-title="Общественные",Первый канал
+udp://@239.239.3.1:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Россия 1.png" group-title="Общественные",Россия 1
+udp://@239.239.3.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Матч ТВ.png" group-title="Спортивные",Матч ТВ
+udp://@239.239.3.3:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/НТВ.png" group-title="Общественные",НТВ
+udp://@239.239.3.4:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Пятый канал.png" group-title="Общественные",Пятый канал
+udp://@239.239.4.1:1234#pnr=1050
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Россия К.png" group-title="Познавательные",Россия К
+udp://@239.239.2.6:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Россия 24.png" group-title="Новостные",Россия 24
+udp://@239.239.1.7:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Карусель.png" group-title="Детские",Карусель
+udp://@239.239.1.8:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ОТР.png" group-title="Общественные",ОТР
+udp://@239.239.2.7:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ТВ Центр.png" group-title="Общественные",ТВ Центр
+udp://@239.239.4.1:1234#pnr=1100
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/РЕН ТВ.png" group-title="Общественные",РЕН ТВ
+udp://@239.239.2.9:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Спас.png" group-title="Познавательные",Спас
+udp://@239.239.2.10:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/СТС.png" group-title="Развлекательные",СТС
+udp://@239.239.2.11:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Домашний.png" group-title="Общественные",Домашний
+udp://@239.239.2.12:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ТВ3.png" group-title="Развлекательные",ТВ3
+udp://@239.239.2.13:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Пятница.png" group-title="Развлекательные",Пятница
+udp://@239.239.2.14:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Звезда.png" group-title="Общественные",Звезда
+udp://@239.239.1.93:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Мир.png" group-title="Общественные",Мир
+udp://@239.239.1.94:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ТНТ.png" group-title="Развлекательные",ТНТ
+udp://@239.239.2.15:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Муз ТВ.png" group-title="Музыкальные",Муз ТВ
+udp://@239.239.2.16:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Ретро ТВ.png" group-title="Общественные",Ретро ТВ
+udp://@239.1.1.7:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ShopShow.png" group-title="Хобби",ShopShow
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Охота и рыбалка.png" group-title="Хобби",Охота и рыбалка
+udp://@239.1.1.6:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Здоровое ТВ.png" group-title="Познавательные",Здоровое ТВ
+udp://@239.1.1.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Усадьба ТВ.png" group-title="Хобби",Усадьба ТВ
+udp://@239.1.1.8:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Домашние животные.png" group-title="Познавательные",Домашние животные
+udp://@239.1.1.9:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/2x2.png" group-title="Развлекательные",2x2
+Udp://@239.239.6.3:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Мульт.png" group-title="Детские",Мульт
+udp://@239.239.1.28:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Disney Channel.png" group-title="Детские",Disney Channel
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Детский.png" group-title="Детские",Детский
+udp://@239.239.1.30:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Матч! Игра.png" group-title="Спортивные",Матч! Игра
+udp://@239.239.1.31:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Матч! Арена.png" group-title="Спортивные",Матч! Арена
+udp://@239.239.1.32:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Матч! Наш Спорт.png" group-title="Спортивные",Матч! Наш Спорт
+udp://@239.239.1.33:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Матч! Боец.png" group-title="Спортивные",Матч! Боец
+udp://@239.239.1.34:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Eurosport 1.png" group-title="Спортивные",Eurosport 1
+udp://@239.239.1.35:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Шансон.png" group-title="Музыкальные",Шансон
+udp://@239.239.2.18:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Пес и Ко.png" group-title="Музыкальные",Пес и Ко
+udp://@239.239.1.84:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Bridge TV.png" group-title="Музыкальные",Bridge TV
+udp://@239.239.2.19:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Музыка Первого.png" group-title="Музыкальные",Музыка Первого
+udp://@239.239.1.39:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/RUSONG TV.png" group-title="Музыкальные",RUSONG TV
+udp://@239.239.1.40:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Оружие.png" group-title="Хобби",Оружие
+udp://@239.239.1.41:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Наука 2.0.png" group-title="Познавательные",Наука 2.0
+udp://@239.239.1.42:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Живая Планета.png" group-title="Познавательные",Живая Планета
+udp://@239.239.1.43:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/История.png" group-title="Познавательные",История
+udp://@239.239.1.44:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ZOOпарк.png" group-title="Познавательные",ZOOпарк
+udp://@239.239.1.45:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Феникс+Кино.png" group-title="Кино и сериалы",Феникс+Кино
+udp://@239.239.1.46:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Кино ТВ.png" group-title="Кино и сериалы",Кино ТВ
+udp://@239.239.1.47:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Русский роман.png" group-title="Кино и сериалы",Русский роман
+udp://@239.239.1.48:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Иллюзион+.png" group-title="Кино и сериалы",Иллюзион+
+udp://@239.239.1.49:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Еврокино.png" group-title="Кино и сериалы",Еврокино
+udp://@239.239.1.50:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Русский Иллюзион.png" group-title="Кино и сериалы",Русский Иллюзион
+udp://@239.239.1.51:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Дом Кино.png" group-title="Кино и сериалы",Дом Кино
+udp://@239.239.1.52:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/СТС Love.png" group-title="Кино и сериалы",СТС Love
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Travel + Adventure.png" group-title="Познавательные",Travel + Adventure
+udp://@239.239.1.83:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Мир 24.png" group-title="Новостные",Мир 24
+udp://@239.239.1.85:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Первый канал HD.png" group-title="Общественные",Первый канал HD
+udp://@239.239.1.56:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Россия 1 HD.png" group-title="Общественные",Россия 1 HD
+udp://@239.239.1.57:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/National Geographic HD.png" group-title="Познавательные",National Geographic HD
+udp://@239.239.1.58:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Nat Geo Wild HD.png" group-title="Познавательные",Nat Geo Wild HD
+udp://@239.239.1.59:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Fox HD.png" group-title="Кино и сериалы",Fox HD
+udp://@239.239.1.60:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Fox Life HD.png" group-title="Кино и сериалы",Fox Life HD
+udp://@239.239.1.61:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Кубань 24.png" group-title="Общественные",Кубань 24
+udp://@239.239.20.21:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/RTД.png" group-title="Общественные",RTД
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Мир HD.png" group-title="Общественные",Мир HD
+udp://@239.239.2.17:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Живи!.png" group-title="Познавательные",Живи!
+udp://@239.239.1.87:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Ю ТВ.png" group-title="Развлекательные",Ю ТВ
+udp://@239.239.1.98:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Че.png" group-title="Развлекательные",Че
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Shopping Live.png" group-title="Познавательные",Shopping Live
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/АВТО24.png" group-title="Хобби",АВТО24
+udp://@239.239.1.69:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Бобер.png" group-title="Познавательные",Бобер
+udp://@239.239.1.70:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Телекафе.png" group-title="Познавательные",Телекафе
+udp://@239.239.1.71:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Время.png" group-title="Познавательные",Время
+udp://@239.239.1.72:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Планета HD.png" group-title="Новостные",Планета HD
+udp://@239.239.1.86:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Синема.png" group-title="Кино и сериалы",Синема
+udp://@239.239.1.81:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Paramount Comedy.png" group-title="Кино и сериалы",Paramount Comedy
+udp://@239.239.1.75:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ТНТ4.png" group-title="Кино и сериалы",ТНТ4
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Союз.png" group-title="Познавательные",Союз
+udp://@239.239.1.77:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/КХЛ.png" group-title="Спортивные",КХЛ
+udp://@239.239.1.96:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Супер.png" group-title="Кино и сериалы",Супер
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/TV Vitrina.png" group-title="Познавательные",TV Vitrina
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Food Network.png" group-title="Познавательные",Food Network
+udp://@239.239.1.91:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Travel Channel.png" group-title="Познавательные",Travel Channel
+udp://@239.239.1.92:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Fine Living.png" group-title="Познавательные",Fine Living
+udp://@239.239.1.95:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Драйв.png" group-title="Познавательные",Драйв
+udp://@239.1.1.5:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Ani.png" group-title="Музыкальные",Ani
+udp://@239.239.1.123:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Наше ТВ.png" group-title="Музыкальные",Наше ТВ
+udp://@239.239.1.82:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/RTG TV.png" group-title="Новостные",RTG TV
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Доктор.png" group-title="Познавательные",Доктор
+udp://@239.239.1.97:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/ТНТ Тихорецк.png" group-title="Развлекательные",ТНТ Тихорецк
+udp://@239.239.1.110:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/LEOMAX.png" group-title="Познавательные",LEOMAX
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Тлум HD.png" group-title="Кино и сериалы",Тлум HD
+udp://@239.239.1.85:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/О!.png" group-title="Детские",О!
+udp://@239.239.1.22:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/VIP Comedy.png" group-title="Кино и сериалы",VIP Comedy
+udp://@239.239.1.101:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/VIP Megahit.png" group-title="Кино и сериалы",VIP Megahit
+udp://@239.239.1.102:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/VIP Premiere.png" group-title="Кино и сериалы",VIP Premiere
+udp://@239.239.1.103:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Fan HD.png" group-title="Кино и сериалы",Fan HD
+udp://@239.239.6.1:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/В гостях у сказки.png" group-title="Детские",В гостях у сказки
+udp://@239.239.1.105:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Дорама.png" group-title="Новостные",Дорама
+udp://lo@239.239.239.2:1234
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Радио Маяк.png" group-title="Общественные",Радио Маяк
+udp://@239.239.4.1:1234#pnr=1120
+
+#EXTINF:-1 tvg-logo="http://localhost/static/logo/Вести ФМ.png" group-title="Общественные",Вести ФМ
+udp://@239.239.4.1:1234#pnr=1110
+

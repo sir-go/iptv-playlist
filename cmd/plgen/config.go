@@ -1,44 +1,43 @@
 package main
 
 import (
-	"encoding/json"
-	"log"
-	"os"
+	"github.com/go-yaml/yaml"
 )
 
-type Cfg struct {
-	Service struct {
-		Port int `json:"port"`
-	} `json:"service"`
-
-	Database struct {
-		Host     string `json:"host"`
-		User     string `json:"user"`
-		Password string `json:"password"`
-		Dbname   string `json:"dbname"`
-	} `json:"database"`
-
-	UnicastUrl string `json:"unicast_url"`
-}
-
-func LoadConfig(confpath string) (*Cfg, error) {
-
-	conf := new(Cfg)
-	file, err := os.Open(confpath)
-	defer func() {
-		if err := file.Close(); err != nil {
-			log.Panic(err)
-		}
-	}()
-
-	if err != nil {
-		return nil, err
+type (
+	cfgService struct {
+		Port int `yaml:"port"`
 	}
 
-	jsonParser := json.NewDecoder(file)
-	if err = jsonParser.Decode(&conf); err != nil {
-		return nil, err
+	cfgDb struct {
+		Host     string `yaml:"host"`
+		Port     int    `yaml:"port"`
+		User     string `yaml:"user"`
+		Password string `yaml:"password"`
+		Dbname   string `yaml:"dbname"`
 	}
 
-	return conf, err
+	cfgTemplates struct {
+		M3U  string `yaml:"m3u"`
+		XSPF string `yaml:"xspf"`
+	}
+
+	cfgPlaylist struct {
+		Templates  cfgTemplates `yaml:"templates"`
+		UnicastUrl string       `yaml:"unicast_url"`
+	}
+
+	Config struct {
+		Service  cfgService  `yaml:"service"`
+		Db       cfgDb       `yaml:"db"`
+		Playlist cfgPlaylist `yaml:"playlist"`
+	}
+)
+
+func LoadConfig(b []byte) (cfg *Config, err error) {
+	cfg = new(Config)
+	if err = yaml.UnmarshalStrict(b, cfg); err != nil {
+		return nil, err
+	}
+	return
 }

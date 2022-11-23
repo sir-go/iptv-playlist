@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/">
+  <trackList>
+    <track>
+      <title>Первый канал</title>
+      <location>udp://@239.239.3.1:1234</location>
+      <image>http://localhost/static/logo/Первый канал.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>1</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Россия 1</title>
+      <location>udp://@239.239.3.2:1234</location>
+      <image>http://localhost/static/logo/Россия 1.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>2</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Матч ТВ</title>
+      <location>udp://@239.239.3.3:1234</location>
+      <image>http://localhost/static/logo/Матч ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>3</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>НТВ</title>
+      <location>udp://@239.239.3.4:1234</location>
+      <image>http://localhost/static/logo/НТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>4</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Пятый канал</title>
+      <location>udp://@239.239.4.1:1234#pnr=1050</location>
+      <image>http://localhost/static/logo/Пятый канал.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>5</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Россия К</title>
+      <location>udp://@239.239.2.6:1234</location>
+      <image>http://localhost/static/logo/Россия К.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>6</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Россия 24</title>
+      <location>udp://@239.239.1.7:1234</location>
+      <image>http://localhost/static/logo/Россия 24.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>7</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Карусель</title>
+      <location>udp://@239.239.1.8:1234</location>
+      <image>http://localhost/static/logo/Карусель.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>8</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ОТР</title>
+      <location>udp://@239.239.2.7:1234</location>
+      <image>http://localhost/static/logo/ОТР.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>9</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ТВ Центр</title>
+      <location>udp://@239.239.4.1:1234#pnr=1100</location>
+      <image>http://localhost/static/logo/ТВ Центр.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>10</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>РЕН ТВ</title>
+      <location>udp://@239.239.2.9:1234</location>
+      <image>http://localhost/static/logo/РЕН ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>11</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Спас</title>
+      <location>udp://@239.239.2.10:1234</location>
+      <image>http://localhost/static/logo/Спас.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>12</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>СТС</title>
+      <location>udp://@239.239.2.11:1234</location>
+      <image>http://localhost/static/logo/СТС.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>13</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Домашний</title>
+      <location>udp://@239.239.2.12:1234</location>
+      <image>http://localhost/static/logo/Домашний.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>14</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ТВ3</title>
+      <location>udp://@239.239.2.13:1234</location>
+      <image>http://localhost/static/logo/ТВ3.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>15</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Пятница</title>
+      <location>udp://@239.239.2.14:1234</location>
+      <image>http://localhost/static/logo/Пятница.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>16</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Звезда</title>
+      <location>udp://@239.239.1.93:1234</location>
+      <image>http://localhost/static/logo/Звезда.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>17</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Мир</title>
+      <location>udp://@239.239.1.94:1234</location>
+      <image>http://localhost/static/logo/Мир.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>18</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ТНТ</title>
+      <location>udp://@239.239.2.15:1234</location>
+      <image>http://localhost/static/logo/ТНТ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>19</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Муз ТВ</title>
+      <location>udp://@239.239.2.16:1234</location>
+      <image>http://localhost/static/logo/Муз ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>20</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Ретро ТВ</title>
+      <location>udp://@239.1.1.7:1234</location>
+      <image>http://localhost/static/logo/Ретро ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>21</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ShopShow</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/ShopShow.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>22</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Охота и рыбалка</title>
+      <location>udp://@239.1.1.6:1234</location>
+      <image>http://localhost/static/logo/Охота и рыбалка.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>23</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Здоровое ТВ</title>
+      <location>udp://@239.1.1.2:1234</location>
+      <image>http://localhost/static/logo/Здоровое ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>24</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Усадьба ТВ</title>
+      <location>udp://@239.1.1.8:1234</location>
+      <image>http://localhost/static/logo/Усадьба ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>25</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Домашние животные</title>
+      <location>udp://@239.1.1.9:1234</location>
+      <image>http://localhost/static/logo/Домашние животные.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>26</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>2x2</title>
+      <location>Udp://@239.239.6.3:1234</location>
+      <image>http://localhost/static/logo/2x2.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>27</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Мульт</title>
+      <location>udp://@239.239.1.28:1234</location>
+      <image>http://localhost/static/logo/Мульт.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>28</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Disney Channel</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/Disney Channel.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>29</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Детский</title>
+      <location>udp://@239.239.1.30:1234</location>
+      <image>http://localhost/static/logo/Детский.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>30</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Матч! Игра</title>
+      <location>udp://@239.239.1.31:1234</location>
+      <image>http://localhost/static/logo/Матч! Игра.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>31</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Матч! Арена</title>
+      <location>udp://@239.239.1.32:1234</location>
+      <image>http://localhost/static/logo/Матч! Арена.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>32</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Матч! Наш Спорт</title>
+      <location>udp://@239.239.1.33:1234</location>
+      <image>http://localhost/static/logo/Матч! Наш Спорт.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>33</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Матч! Боец</title>
+      <location>udp://@239.239.1.34:1234</location>
+      <image>http://localhost/static/logo/Матч! Боец.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>34</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Eurosport 1</title>
+      <location>udp://@239.239.1.35:1234</location>
+      <image>http://localhost/static/logo/Eurosport 1.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>35</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Шансон</title>
+      <location>udp://@239.239.2.18:1234</location>
+      <image>http://localhost/static/logo/Шансон.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>36</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Пес и Ко</title>
+      <location>udp://@239.239.1.84:1234</location>
+      <image>http://localhost/static/logo/Пес и Ко.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>37</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Bridge TV</title>
+      <location>udp://@239.239.2.19:1234</location>
+      <image>http://localhost/static/logo/Bridge TV.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>38</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Музыка Первого</title>
+      <location>udp://@239.239.1.39:1234</location>
+      <image>http://localhost/static/logo/Музыка Первого.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>39</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>RUSONG TV</title>
+      <location>udp://@239.239.1.40:1234</location>
+      <image>http://localhost/static/logo/RUSONG TV.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>40</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Оружие</title>
+      <location>udp://@239.239.1.41:1234</location>
+      <image>http://localhost/static/logo/Оружие.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>41</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Наука 2.0</title>
+      <location>udp://@239.239.1.42:1234</location>
+      <image>http://localhost/static/logo/Наука 2.0.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>42</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Живая Планета</title>
+      <location>udp://@239.239.1.43:1234</location>
+      <image>http://localhost/static/logo/Живая Планета.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>43</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>История</title>
+      <location>udp://@239.239.1.44:1234</location>
+      <image>http://localhost/static/logo/История.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>44</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ZOOпарк</title>
+      <location>udp://@239.239.1.45:1234</location>
+      <image>http://localhost/static/logo/ZOOпарк.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>45</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Феникс+Кино</title>
+      <location>udp://@239.239.1.46:1234</location>
+      <image>http://localhost/static/logo/Феникс+Кино.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>46</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Кино ТВ</title>
+      <location>udp://@239.239.1.47:1234</location>
+      <image>http://localhost/static/logo/Кино ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>47</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Русский роман</title>
+      <location>udp://@239.239.1.48:1234</location>
+      <image>http://localhost/static/logo/Русский роман.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>48</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Иллюзион+</title>
+      <location>udp://@239.239.1.49:1234</location>
+      <image>http://localhost/static/logo/Иллюзион+.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>49</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Еврокино</title>
+      <location>udp://@239.239.1.50:1234</location>
+      <image>http://localhost/static/logo/Еврокино.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>50</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Русский Иллюзион</title>
+      <location>udp://@239.239.1.51:1234</location>
+      <image>http://localhost/static/logo/Русский Иллюзион.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>51</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Дом Кино</title>
+      <location>udp://@239.239.1.52:1234</location>
+      <image>http://localhost/static/logo/Дом Кино.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>52</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>СТС Love</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/СТС Love.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>53</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Travel + Adventure</title>
+      <location>udp://@239.239.1.83:1234</location>
+      <image>http://localhost/static/logo/Travel + Adventure.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>54</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Мир 24</title>
+      <location>udp://@239.239.1.85:1234</location>
+      <image>http://localhost/static/logo/Мир 24.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>55</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Первый канал HD</title>
+      <location>udp://@239.239.1.56:1234</location>
+      <image>http://localhost/static/logo/Первый канал HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>56</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Россия 1 HD</title>
+      <location>udp://@239.239.1.57:1234</location>
+      <image>http://localhost/static/logo/Россия 1 HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>57</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>National Geographic HD</title>
+      <location>udp://@239.239.1.58:1234</location>
+      <image>http://localhost/static/logo/National Geographic HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>58</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Nat Geo Wild HD</title>
+      <location>udp://@239.239.1.59:1234</location>
+      <image>http://localhost/static/logo/Nat Geo Wild HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>59</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Fox HD</title>
+      <location>udp://@239.239.1.60:1234</location>
+      <image>http://localhost/static/logo/Fox HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>60</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Fox Life HD</title>
+      <location>udp://@239.239.1.61:1234</location>
+      <image>http://localhost/static/logo/Fox Life HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>61</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Кубань 24</title>
+      <location>udp://@239.239.20.21:1234</location>
+      <image>http://localhost/static/logo/Кубань 24.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>62</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>RTД</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/RTД.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>63</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Мир HD</title>
+      <location>udp://@239.239.2.17:1234</location>
+      <image>http://localhost/static/logo/Мир HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>64</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Живи!</title>
+      <location>udp://@239.239.1.87:1234</location>
+      <image>http://localhost/static/logo/Живи!.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>65</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Ю ТВ</title>
+      <location>udp://@239.239.1.98:1234</location>
+      <image>http://localhost/static/logo/Ю ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>66</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Че</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/Че.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>67</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Shopping Live</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/Shopping Live.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>68</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>АВТО24</title>
+      <location>udp://@239.239.1.69:1234</location>
+      <image>http://localhost/static/logo/АВТО24.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>69</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Бобер</title>
+      <location>udp://@239.239.1.70:1234</location>
+      <image>http://localhost/static/logo/Бобер.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>70</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Телекафе</title>
+      <location>udp://@239.239.1.71:1234</location>
+      <image>http://localhost/static/logo/Телекафе.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>71</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Время</title>
+      <location>udp://@239.239.1.72:1234</location>
+      <image>http://localhost/static/logo/Время.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>72</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Планета HD</title>
+      <location>udp://@239.239.1.86:1234</location>
+      <image>http://localhost/static/logo/Планета HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>73</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Синема</title>
+      <location>udp://@239.239.1.81:1234</location>
+      <image>http://localhost/static/logo/Синема.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>74</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Paramount Comedy</title>
+      <location>udp://@239.239.1.75:1234</location>
+      <image>http://localhost/static/logo/Paramount Comedy.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>75</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ТНТ4</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/ТНТ4.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>76</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Союз</title>
+      <location>udp://@239.239.1.77:1234</location>
+      <image>http://localhost/static/logo/Союз.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>77</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>КХЛ</title>
+      <location>udp://@239.239.1.96:1234</location>
+      <image>http://localhost/static/logo/КХЛ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>78</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Супер</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/Супер.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>79</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>TV Vitrina</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/TV Vitrina.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>80</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Food Network</title>
+      <location>udp://@239.239.1.91:1234</location>
+      <image>http://localhost/static/logo/Food Network.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>81</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Travel Channel</title>
+      <location>udp://@239.239.1.92:1234</location>
+      <image>http://localhost/static/logo/Travel Channel.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>82</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Fine Living</title>
+      <location>udp://@239.239.1.95:1234</location>
+      <image>http://localhost/static/logo/Fine Living.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>83</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Драйв</title>
+      <location>udp://@239.1.1.5:1234</location>
+      <image>http://localhost/static/logo/Драйв.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>84</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Ani</title>
+      <location>udp://@239.239.1.123:1234</location>
+      <image>http://localhost/static/logo/Ani.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>85</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Наше ТВ</title>
+      <location>udp://@239.239.1.82:1234</location>
+      <image>http://localhost/static/logo/Наше ТВ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>86</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>RTG TV</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/RTG TV.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>87</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Доктор</title>
+      <location>udp://@239.239.1.97:1234</location>
+      <image>http://localhost/static/logo/Доктор.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>88</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>ТНТ Тихорецк</title>
+      <location>udp://@239.239.1.110:1234</location>
+      <image>http://localhost/static/logo/ТНТ Тихорецк.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>89</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>LEOMAX</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/LEOMAX.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>90</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Тлум HD</title>
+      <location>udp://@239.239.1.85:1234</location>
+      <image>http://localhost/static/logo/Тлум HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>92</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>О!</title>
+      <location>udp://@239.239.1.22:1234</location>
+      <image>http://localhost/static/logo/О!.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>93</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>VIP Comedy</title>
+      <location>udp://@239.239.1.101:1234</location>
+      <image>http://localhost/static/logo/VIP Comedy.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>101</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>VIP Megahit</title>
+      <location>udp://@239.239.1.102:1234</location>
+      <image>http://localhost/static/logo/VIP Megahit.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>102</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>VIP Premiere</title>
+      <location>udp://@239.239.1.103:1234</location>
+      <image>http://localhost/static/logo/VIP Premiere.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>103</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Fan HD</title>
+      <location>udp://@239.239.6.1:1234</location>
+      <image>http://localhost/static/logo/Fan HD.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>104</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>В гостях у сказки</title>
+      <location>udp://@239.239.1.105:1234</location>
+      <image>http://localhost/static/logo/В гостях у сказки.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>105</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Дорама</title>
+      <location>udp://lo@239.239.239.2:1234</location>
+      <image>http://localhost/static/logo/Дорама.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>106</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Радио Маяк</title>
+      <location>udp://@239.239.4.1:1234#pnr=1120</location>
+      <image>http://localhost/static/logo/Радио Маяк.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>200</vlc:id>
+      </extension>
+    </track>
+    <track>
+      <title>Вести ФМ</title>
+      <location>udp://@239.239.4.1:1234#pnr=1110</location>
+      <image>http://localhost/static/logo/Вести ФМ.png</image>
+      <extension application="http://www.videolan.org/vlc/playlist/0">
+        <vlc:id>201</vlc:id>
+      </extension>
+    </track>
+  </trackList>
+  <extension application="http://www.videolan.org/vlc/playlist/0">
+  <vlc:node title="Детские">
+      <vlc:item tid="8"/>
+      <vlc:item tid="28"/>
+      <vlc:item tid="29"/>
+      <vlc:item tid="30"/>
+      <vlc:item tid="93"/>
+      <vlc:item tid="105"/>
+      
+    </vlc:node>
+  <vlc:node title="Кино и сериалы">
+      <vlc:item tid="46"/>
+      <vlc:item tid="47"/>
+      <vlc:item tid="48"/>
+      <vlc:item tid="49"/>
+      <vlc:item tid="50"/>
+      <vlc:item tid="51"/>
+      <vlc:item tid="52"/>
+      <vlc:item tid="53"/>
+      <vlc:item tid="60"/>
+      <vlc:item tid="61"/>
+      <vlc:item tid="74"/>
+      <vlc:item tid="75"/>
+      <vlc:item tid="76"/>
+      <vlc:item tid="79"/>
+      <vlc:item tid="92"/>
+      <vlc:item tid="101"/>
+      <vlc:item tid="102"/>
+      <vlc:item tid="103"/>
+      <vlc:item tid="104"/>
+      
+    </vlc:node>
+  <vlc:node title="Музыкальные">
+      <vlc:item tid="20"/>
+      <vlc:item tid="36"/>
+      <vlc:item tid="37"/>
+      <vlc:item tid="38"/>
+      <vlc:item tid="39"/>
+      <vlc:item tid="40"/>
+      <vlc:item tid="85"/>
+      <vlc:item tid="86"/>
+      
+    </vlc:node>
+  <vlc:node title="Новостные">
+      <vlc:item tid="7"/>
+      <vlc:item tid="55"/>
+      <vlc:item tid="73"/>
+      <vlc:item tid="87"/>
+      <vlc:item tid="106"/>
+      
+    </vlc:node>
+  <vlc:node title="Общественные">
+      <vlc:item tid="1"/>
+      <vlc:item tid="2"/>
+      <vlc:item tid="4"/>
+      <vlc:item tid="5"/>
+      <vlc:item tid="9"/>
+      <vlc:item tid="10"/>
+      <vlc:item tid="11"/>
+      <vlc:item tid="14"/>
+      <vlc:item tid="17"/>
+      <vlc:item tid="18"/>
+      <vlc:item tid="21"/>
+      <vlc:item tid="62"/>
+      <vlc:item tid="63"/>
+      <vlc:item tid="200"/>
+      <vlc:item tid="201"/>
+      <vlc:item tid="56"/>
+      <vlc:item tid="57"/>
+      <vlc:item tid="64"/>
+      
+    </vlc:node>
+  <vlc:node title="Познавательные">
+      <vlc:item tid="6"/>
+      <vlc:item tid="12"/>
+      <vlc:item tid="24"/>
+      <vlc:item tid="26"/>
+      <vlc:item tid="42"/>
+      <vlc:item tid="43"/>
+      <vlc:item tid="44"/>
+      <vlc:item tid="45"/>
+      <vlc:item tid="54"/>
+      <vlc:item tid="58"/>
+      <vlc:item tid="59"/>
+      <vlc:item tid="65"/>
+      <vlc:item tid="68"/>
+      <vlc:item tid="70"/>
+      <vlc:item tid="71"/>
+      <vlc:item tid="72"/>
+      <vlc:item tid="77"/>
+      <vlc:item tid="80"/>
+      <vlc:item tid="81"/>
+      <vlc:item tid="82"/>
+      <vlc:item tid="83"/>
+      <vlc:item tid="84"/>
+      <vlc:item tid="88"/>
+      <vlc:item tid="90"/>
+      
+    </vlc:node>
+  <vlc:node title="Развлекательные">
+      <vlc:item tid="13"/>
+      <vlc:item tid="15"/>
+      <vlc:item tid="16"/>
+      <vlc:item tid="19"/>
+      <vlc:item tid="27"/>
+      <vlc:item tid="66"/>
+      <vlc:item tid="67"/>
+      <vlc:item tid="89"/>
+      
+    </vlc:node>
+  <vlc:node title="Спортивные">
+      <vlc:item tid="3"/>
+      <vlc:item tid="31"/>
+      <vlc:item tid="32"/>
+      <vlc:item tid="33"/>
+      <vlc:item tid="34"/>
+      <vlc:item tid="35"/>
+      <vlc:item tid="78"/>
+      
+    </vlc:node>
+  <vlc:node title="Хобби">
+      <vlc:item tid="22"/>
+      <vlc:item tid="23"/>
+      <vlc:item tid="25"/>
+      <vlc:item tid="41"/>
+      <vlc:item tid="69"/>
+      
+    </vlc:node>
+  
+  </extension>
+</playlist>

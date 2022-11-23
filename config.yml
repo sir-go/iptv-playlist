@@ -1,0 +1,15 @@
+service:
+  port: 8081
+
+db:
+  host: iptv-db
+  port: 3306
+  user: root
+  password:
+  dbname: iptv
+
+playlist:
+  templates:
+    m3u: /opt/templates/m3u.tmpl
+    xspf: /opt/templates/xspf.tmpl
+  unicast_url: http://localhost:8000

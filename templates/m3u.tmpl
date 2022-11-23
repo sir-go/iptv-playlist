@@ -1,0 +1,5 @@
+#EXTM3U m3uautoload=1 cache=500 deinterlace=1 aspect-ratio=none
+{{range .Records}}
+#EXTINF:-1 tvg-logo="http://{{$.Host}}/static/logo/{{.Name}}.png" group-title="{{.CatTitle}}",{{.Name}}
+{{if $.UnicastUrl}}{{$.UnicastUrl}}/{{.NameTr}}{{else}}{{.Url}}{{end}}
+{{end}}
