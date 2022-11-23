@@ -5,7 +5,7 @@ services:
     image: mysql:8
     container_name: iptv-db
     environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
       MYSQL_DATABASE: iptv
       MYSQL_USER: db-username
       MYSQL_PASSWORD: db-password
